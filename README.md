@@ -10,7 +10,7 @@ Commands to generate the `gomock` files for the code examples:
 mockgen -source=cmd/06-test-gomock/repo_database.go -destination=repo_mock.go -package=main
 ```
 ```
- mockgen -source=./vendor/github.com/aws/aws-sdk-go/service/dynamodb/dynamodbiface/interface.go -destination=dynamodb_mock.go -package=main
+mockgen -source=./vendor/github.com/aws/aws-sdk-go/service/dynamodb/dynamodbiface/interface.go -destination=dynamodb_mock.go -package=main
 ```
 You need to move the generated go mock files to the correct folder, alternatively you can also change the `-destination` 
 flag to the correct folder
