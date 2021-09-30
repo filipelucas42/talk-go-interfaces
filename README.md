@@ -4,10 +4,7 @@ Code examples are inside `cmd` folder.
 
 Run `go mod vendor` to install dependencies.
 
-Unit test for the examples `cmd/06-test-gomock` and `cmd/07-test-aws-dynamo` are using [gomock](https://github.
-com/golang/mock), read the 
-docs to know how to 
-install.
+Unit test for the examples `cmd/06-test-gomock` and `cmd/07-test-aws-dynamo` are using [gomock](https://github.com/golang/mock), read the docs to know how to install.
 Commands to generate the `gomock` files for the code examples:
 ```
 mockgen -source=cmd/06-test-gomock/repo_database.go -destination=repo_mock.go -package=main
